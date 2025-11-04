@@ -1,0 +1,14 @@
+@import url("./navbar.css");
+@import url("./layout.css");
+@import url("./forms.css");
+@import url("./posts.css");
+@import url("./comments.css");
+@import url("./postPage.css");
+
+body {
+  background: #ffffff;
+  color: #0099ff;
+  min-height: 100vh;
+  margin: 0;
+}
+

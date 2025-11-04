@@ -1,0 +1,37 @@
+### Criar usuário
+POST http://localhost:4000/api/users
+Content-Type: application/json
+
+{
+  "name": "João",
+  "username": "joaozin",
+  "bio": "Estudante de TI"
+}
+
+### Listar todos os usuários
+GET http://localhost:4000/api/users
+
+### Criar um post
+POST http://localhost:4000/api/posts
+Content-Type: application/json
+
+{
+  "authorId": "690378ce5767cfee3c97b878",
+  "content": "teste"
+}
+
+### Listar posts
+GET http://localhost:4000/api/posts
+
+### Criar comentário
+POST http://localhost:4000/api/comments
+Content-Type: application/json
+
+{
+  "postId": "6903f3eb546ede12267095d4",
+  "authorId": "690378ce5767cfee3c97b878",
+  "text": "Gostei do post!"
+}
+
+### Listar comentários de um post
+GET http://localhost:4000/api/comments/6903f3eb546ede12267095d4
