@@ -86,7 +86,7 @@ O servidor backend iniciará em:
 
 ---
 
-### **2️Frontend**
+### **Frontend**
 
 ```bash
 cd twitter
