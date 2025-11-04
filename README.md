@@ -1,32 +1,32 @@
-# Twitter — Projeto N1
+# Projeto N1 de Programação Web II
 
-Esse projeto foi desenvolvido como parte da **N1 da disciplina de Desenvolvimento Web**, com o objetivo de aplicar conceitos de **APIs REST, integração frontend-backend e persistência de dados**.
+Esse projeto foi desenvolvido com o objetivo de aplicar conceitos de APIs REST, integração frontend-backend e persistência de dados.
 
-O **Twitter** é uma aplicação web inspirada na rede social original, onde os usuários podem **criar contas**, **publicar tweets** e **visualizar publicações de outros usuários**.
+O twitter é uma aplicação web inspirada na rede social original, onde os usuários podem criar contas, publicar tweets (postagens) e visualizar publicações de outros usuários.
 
-Desenvolvido com **Node.js**, **Express**, **SQLite3**, **React** e **Axios**, unindo frontend e backend.
+O projeto foi desenvolvido com Node.js, Express, SQLite3, React e Axios, unindo frontend e backend.
 
 ---
 
-## Funcionalidades
+## ✧ Funcionalidades
 
-* Criar usuário
+* Criar perfil de usuário
 * Publicar tweets com texto
 * Visualizar tweets recentes
 * Comentar em tweets
 
 ---
 
-## Tecnologias Utilizadas
+## ✧ Tecnologias Utilizadas
 
-### **Frontend**
+### ◦ Frontend
 
 * React
 * React Router DOM
 * Axios
 * CSS Modularizado
 
-### **Backend**
+### ◦ Backend
 
 * Node.js
 * Express
@@ -36,11 +36,11 @@ Desenvolvido com **Node.js**, **Express**, **SQLite3**, **React** e **Axios**, u
 
 ---
 
-## Banco de Dados (SQLite)
+## ✧ Banco de Dados (SQLite)
 
-O banco **`database.sqlite`** contém três tabelas principais:
+O banco `database.sqlite` contém três tabelas principais:
 
-### **Users**
+### ◦ Users
 
 | Campo    | Tipo    | Descrição           |
 | -------- | ------- | ------------------- |
@@ -49,7 +49,7 @@ O banco **`database.sqlite`** contém três tabelas principais:
 | username | TEXT    | @username do perfil |
 | bio      | TEXT    | Biografia curta     |
 
-### **Posts**
+### ◦ Posts
 
 | Campo   | Tipo    | Descrição           |
 | ------- | ------- | ------------------- |
@@ -57,7 +57,7 @@ O banco **`database.sqlite`** contém três tabelas principais:
 | content | TEXT    | Conteúdo do tweet   |
 | userId  | INTEGER | Autor do tweet      |
 
-### **Comments**
+### ◦ Comments
 
 | Campo   | Tipo    | Descrição              |
 | ------- | ------- | ---------------------- |
@@ -66,13 +66,13 @@ O banco **`database.sqlite`** contém três tabelas principais:
 | userId  | INTEGER | Autor do comentário    |
 | postId  | INTEGER | Tweet relacionado      |
 
-> O banco é gerenciado via **Sequelize**, com relações configuradas entre usuários, tweets e comentários.
+> O banco é gerenciado via Sequelize, com relações configuradas entre usuários, tweets e comentários.
 
 ---
 
-## Executando o Projeto
+## ✧ Executando o Projeto
 
-### **Backend**
+### ◦ Backend
 
 ```bash
 cd twitter
@@ -86,7 +86,7 @@ O servidor backend iniciará em:
 
 ---
 
-### **Frontend**
+### ◦ Frontend
 
 ```bash
 cd twitter
@@ -100,7 +100,7 @@ O servidor frontend iniciará em:
 
 ---
 
-## Estrutura de Pastas
+## ✧ Estrutura de Pastas
 
 ```bash
 Twitter/
